@@ -28,7 +28,7 @@ public class App
                     newHedgehog.talk(message);
                     break;
                 case 2:
-                    System.out.println("What is the name of hedgehog:");
+                    System.out.println("What is the name of the hedgehog:");
                     String name = sc.nextLine();
                     System.out.println("What is the age of the hedgehog:");
                     String ageString = sc.nextLine();
@@ -37,13 +37,13 @@ public class App
                     break;
  
                     case 3:
-                        System.out.print("How many laps?");
+                        System.out.println("How many laps?");
                         String lap = sc.nextLine();
                         newHedgehog.run(Integer.parseInt(lap));
                         break;
                     
                 case 0:
-                    System.out.println("Thank you for using the program");
+                    System.out.println("Thank you for using the program.");
                     exit = true;
                     break;
                         
